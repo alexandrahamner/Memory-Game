@@ -1,45 +1,27 @@
 /* style.css */
-
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
-    height: 100vh;
     display: flex;
-    background: blueviolet;
+    justify-content: space-around;
+    align-items: center;
+    height: 100VH;
+
 }
+.score-result {
+    margin-bottom: 500px;
+}
+
 
 .memory-game {
-    width: 450px;
-    height: 350px;
-    margin: auto;
-    border: 100px #ffffff;
     display: flex;
     flex-wrap: wrap;
-}
-
-.memory-card {
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
-    padding: 10px;
-    margin: 5px;
-    position: relative;
-    transform: scale(1);
-}
-
-.memory-card:active {
-    transform: scale(.97);
-    transition: transform .2s;
-}
-
-.back-face {
-
-    position: absolute;
+    height: 500px;
+    width: 700px;
 
 }
+
+.card-border {
+    border: #006064 solid 1px;
+}
+
 
 
